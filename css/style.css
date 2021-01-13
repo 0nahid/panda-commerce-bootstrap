@@ -1,58 +1,75 @@
-a{
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
     color: #555;
     text-decoration: none;
     transition: ease all .3s;
 }
 
-a:hover{
+a:hover {
     color: #0756F3;
 }
-.btn-color{
+
+.btn-color,
+.btn-subscribe {
     background-color: #FF2078;
     color: white;
 }
-.btn-subscribe{
-    background-color: #ebb7cb;
+
+.btn-color-2 {
+    background-color: #555;
     color: white;
 }
-.carousel-section{
+
+.carousel-section {
     border-radius: 12px;
 
 }
-.carousel-section img{
+
+.carousel-section img {
     height: 380px;
 }
-.carousel-indicators li{
+
+.carousel-indicators li {
     background: black;
     border: 1px solid black;
     border-radius: 5px;
     width: 30px;
 }
-.categories a{
+
+.categories a {
     text-decoration: none;
 }
-.categories-info{
+
+.categories-info {
     color: white;
 }
-.categories-img img{
+
+.categories-img img {
     height: 135px;
 }
-.panda-card{
+
+.panda-card {
     border: 0;
     border-radius: 10px;
 }
 
-.panda-card-footer{
+.panda-card-footer {
     border: 0;
     background: white;
     border-radius: 10px;
 }
-.card-title{
+
+.card-title {
     font-size: 20px;
     font-weight: 400;
 }
 
-section{
+section {
     margin-top: 50px;
     margin-bottom: 50px;
 }
