@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panda Commerce</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+  <!-- header part -->
+
+  <header class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="Images/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Shoes</a>
+            <a class="nav-link" href="#">Backpack</a>
+            <a class="nav-link" href="#">Subscribe</a>
+          </div>
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart</a>
+            <a class="nav-link" href="#"><i class="fa fa-user" aria-hidden="true"></i> My Account</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- carousel part -->
+
+    <div id="carouselExampleIndicators" class="carousel carousel-section slide mt-5" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item ">
+          <div class="row d-flex align-items-center m-5">
+            <div class="col-md-7">
+              <h1>SuperBass Airdot With Noise Cancelation</h1>
+              <p>This is the best tv in the world I've ever seen.</p>
+              <h1>$700</h1>
+              <button class="btn btn-color mt-3"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy Now</button>
+            </div>
+            <div class="col-md-5">
+              <img src="images/banner-images/airdot.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row d-flex align-items-center m-5">
+            <div class="col-md-7">
+              <h1>Cool Dude Headphone </h1>
+              <p>This is the best headphone in the world I've ever seen.</p>
+              <h1>$399</h1>
+              <button class="btn btn-color mt-3"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy Now</button>
+            </div>
+            <div class="col-md-5">
+              <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <div class="row d-flex align-items-center m-5">
+            <div class="col-md-7">
+              <h1>X-box for your living room </h1>
+              <p>This is the best xbox in the world I've ever seen.</p>
+              <h1>$990</h1>
+              <button class="btn btn-color mt-3"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy Now</button>
+            </div>
+            <div class="col-md-5">
+              <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <!-- main part -->
+
+  <main>
+
+    <!-- catagories part -->
+
+    <div class="container categories mt-5 mb-5">
+      <h3 class="mb-4">Product Catagories</h3>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class=" mb-3 mb-lg-0">
+            <a href="">
+              <div class="d-flex rounded align-items-center justify-content-between bg-warning p-4">
+                <div class="categories-info">
+                  <h2>Backpack</h2>
+                  <p class="mb-0">16 Products</p>
+                </div>
+                <div class="categories-img">
+                  <img class="w-100" src="images/categories/bag.png" alt="">
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class=" mb-3 mb-lg-0">
+            <a href="">
+              <div class="d-flex rounded align-items-center justify-content-between bg-danger p-4">
+                <div class="categories-info">
+                  <h2>Shoes</h2>
+                  <p class="mb-0">58 Products</p>
+                </div>
+                <div class="categories-img">
+                  <img class="w-100" src="images/categories/shoes.png" alt="">
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 ">
+          <div class=" mb-3 mb-lg-0">
+            <a href="">
+              <div class="d-flex rounded align-items-center justify-content-between bg-info p-4">
+                <div class="categories-info">
+                  <h2>Watch</h2>
+                  <p class="mb-0">36 Products</p>
+                </div>
+                <div class="categories-img">
+                  <img class="w-100" src="images/categories/watch.png" alt="">
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <section id="backpack mt-5">
+        <div class="container ">
+          <div class="heading d-flex justify-content-between align-items-center mb-3">
+            <h3>Backpack</h3>
+            <a class="btn btn-sm btn-color" href="#"> <i class="fa fa-opencart" aria-hidden="true"></i> View All</a>
+          </div>
+          <div class="card-section mt-4">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col-lg-4 col-md-6"><a href="">
+                  <div class="card panda-card shadow h-100">
+                    <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h3 class="card-title">Blue Niltu Bag</h3>
+                      <h5>$150 <span class="text-muted fs-6"><strike class="text-danger">$199</strike></span></h5>
+                    </div>
+                </a>
+                <div class="card-footer panda-card-footer mb-3">
+                  <button class="btn btn-color"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card panda-card shadow h-100"><a href="">
+                  <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h3 class="card-title">Red Laltu Bag</h3>
+                    <h5>$100 <span class="text-muted fs-6"><strike class="text-danger">$149</strike></span></h5>
+                  </div>
+                </a>
+                <div class="card-footer panda-card-footer mb-3">
+                  <button class="btn btn-color"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 last-card ">
+              <div class="card panda-card shadow h-100"><a href="">
+                  <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h3 class="card-title">Black Kaltu Bag</h3>
+                    <h5>$200 <span class="text-muted fs-6"><strike class="text-danger">$299</strike></span></h5>
+                  </div>
+                </a>
+                <div class="card-footer panda-card-footer mb-3">
+                  <button class="btn btn-color"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- shoes section -->
+
+    <section id="shoes">
+      <div class="container">
+        <div class="heading d-flex justify-content-between align-items-center mb-3">
+          <h3>Shoes</h3>
+          <a class="btn btn-sm btn-color" href="#"> <i class="fa fa-opencart" aria-hidden="true"></i> View All</a>
+        </div>
+        <div class="card-section mt-4">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col-lg-4 col-md-6">
+              <div class="card panda-card shadow h-100"><a href="">
+                  <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h2 class="card-title">AfroJack</h2>
+                    <h4>$135 <span class="text-muted fs-6"><strike class="text-danger">$149</strike></span></h4>
+                  </div>
+                </a>
+                <div class="card-footer panda-card-footer mb-3">
+                  <button class="btn btn-color"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card panda-card shadow h-100"><a href="">
+                  <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h2 class="card-title">Snekers</h2>
+                    <h4>$89 <span class="text-muted fs-6"><strike class="text-danger">$109</strike></span></h4>
+                  </div>
+                </a>
+                <div class="card-footer panda-card-footer mb-3">
+                  <button class="btn btn-color"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 last-card">
+              <div class="card panda-card shadow h-100"><a href="">
+                  <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h2 class="card-title">AixMax Red</h2>
+                    <h4>$99 <span class="text-muted fs-6"><strike class="text-danger">$125</strike></span></h4>
+                  </div>
+                </a>
+                <div class="card-footer panda-card-footer mb-3">
+                  <button class="btn btn-color"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- subscribe section -->
+
+    <section id="subscribe">
+      <div class="container btn-subscribe rounded p-5">
+        <div class=" text-center ">
+          <h2>SUBSCRIBE</h2>
+        <p>Get updates on sales, special offers and more...</p>
+        </div>
+        <form class="row justify-content-center">
+          <div class="col-sm-9 col-lg-4 col-8">
+              <input type="text" class="form-control" placeholder="Your Email">
+          </div>
+          <div class="col-sm-3 col-lg-2 col-4">
+            <button type="submit" class="btn btn-color">Subscribe</button>
+          </div>
+      </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- footer section -->
+  <footer class="text-center py-5">
+    <div class="container">
+        <p> <i class="fa fa-copyright" aria-hidden="true"></i> 2021-2022 || Made with ❤ by <a href="https://www.facebook.com/HashTagNahid/">Nahid Hassan</a> </p>
+    </div>
+</footer>
+
+
+  <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

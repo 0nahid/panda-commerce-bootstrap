@@ -1,0 +1,14 @@
+@media (max-width:992px){
+    .categories-img img{
+        height: 100px;
+    }
+    .last-card{
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+@media (max-width:576px){
+    .categories-img img{
+        height: 130px;
+    }
+}
